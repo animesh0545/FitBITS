@@ -1,0 +1,104 @@
+/* App.css */
+
+/* Center the app content and set a clean background */
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+}
+
+/* React logo animation */
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    margin: 2rem 0 1rem 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Header styles */
+.App-header {
+    background-color: #282c34;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+/* Link styles */
+.App-link {
+    color: #61dafb;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.App-link:hover {
+    color: #0077b6;
+}
+
+/* Branding icon grid (for your swim/run/cycle icons) */
+.App-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.App-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s;
+}
+
+.App-icon img {
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .App-logo {
+        height: 24vmin;
+    }
+
+    .App-icons {
+        gap: 0.7rem;
+    }
+
+    .App-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .App-icon img {
+        width: 26px;
+        height: 26px;
+    }
+}

@@ -1,0 +1,59 @@
+/* src/components/ActivityList.css */
+
+.activity-list-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2.5rem;
+    margin: 2rem auto;
+    max-width: 700px;
+}
+
+.activity-list-container h2 {
+    color: #0077b6;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.activity-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.activity-list-table th,
+.activity-list-table td {
+    padding: 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.activity-list-table th {
+    background: #f0f2f5;
+    color: #333;
+    font-weight: 600;
+}
+
+.activity-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.activity-list-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.activity-list-type {
+    vertical-align: middle;
+    font-weight: 500;
+    color: #444;
+}
+
+.activity-list-empty {
+    text-align: center;
+    color: #888;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+}

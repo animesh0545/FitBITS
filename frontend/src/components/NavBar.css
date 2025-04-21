@@ -1,0 +1,53 @@
+/* src/components/NavBar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.75rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.4rem;
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1.2rem;
+    color: #333;
+}
+
+.navbar-react-logo {
+    width: 32px;
+    height: 32px;
+    margin-left: 0.8rem;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.navbar-link.active,
+.navbar-link:hover {
+    background: #e0f7fa;
+    color: #0077b6;
+}

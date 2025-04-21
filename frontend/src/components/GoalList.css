@@ -1,0 +1,76 @@
+/* src/components/GoalList.css */
+
+.goal-list-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2.5rem;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.goal-list-container h2 {
+    color: #0077b6;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.goal-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.goal-list-table th,
+.goal-list-table td {
+    padding: 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.goal-list-table th {
+    background: #f0f2f5;
+    color: #333;
+    font-weight: 600;
+}
+
+.goal-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.goal-list-icon {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.goal-list-type {
+    vertical-align: middle;
+    font-weight: 500;
+    color: #444;
+}
+
+.goal-list-status {
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.goal-list-status.completed {
+    background: #d4f7d4;
+    color: #2e7d32;
+}
+
+.goal-list-status.pending {
+    background: #fff3cd;
+    color: #b8860b;
+}
+
+.goal-list-empty {
+    text-align: center;
+    color: #888;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+}
